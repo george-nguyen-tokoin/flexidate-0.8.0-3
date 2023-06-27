@@ -7,7 +7,10 @@ environment:
 dependencies:
   collection: ^1.15.0
   dartx: ^0.7.1
-  dartxx: ^0.5.3+2
+  dartxx:
+    git:
+      url: https://github.com/george-nguyen-tokoin/dartxx
+      ref: master
   equatable: ^2.0.3
   inflection3: ^0.5.3+2
   intl: ^0.18.0
